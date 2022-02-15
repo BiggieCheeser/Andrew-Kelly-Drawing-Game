@@ -88,24 +88,24 @@ Button10.addEventListener(
 Button11.addEventListener(
   "click",
   function (event){
-    ctx.strokeStyle = "Pink"
-    ctx.fillStyle = "Pink"
+    ctx.strokeStyle = "Pink";
+    ctx.fillStyle = "Pink";
   }
 )
 
 Button12.addEventListener(
   "click",
   function (event){
-    ctx.strokeStyle = "White"
-    ctx.fillStyle = "White"
+    ctx.strokeStyle = "White";
+    ctx.fillStyle = "White";
   }
 )
 
 Button.addEventListener(
   "click",
   function (event){
-    tool = drawTriangle
-  }
+    tool = drawTriangle;
+  };
 );
 
 sampleButton.addEventListener(
