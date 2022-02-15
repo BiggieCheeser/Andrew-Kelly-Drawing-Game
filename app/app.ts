@@ -105,7 +105,7 @@ Button.addEventListener(
   "click",
   function (event){
     tool = drawTriangle;
-  };
+  }
 );
 
 sampleButton.addEventListener(
